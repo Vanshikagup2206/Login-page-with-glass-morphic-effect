@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('images/scenery.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:'Times New Roman', Times, serif
+}
+input{
+    border:none;
+    border-bottom:1px solid black;
+    background-color: rgba(255, 255, 255,0);
+    outline:none;
+}
+.outer-box{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+}
+.form-elements{
+    margin:10px;
+}
+.inner-box{
+    background-color: rgba(255, 255, 255,0.3);
+    backdrop-filter: blur(8px);
+    border-radius: 14px;
+    box-shadow: 0 0 10px rgba(255, 255, 255,0.3);
+    padding:25px;
+    width:325px;
+    height: 350px;
+    border:1px solid black;
+}
+.signup-header h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.signup-header p{
+    font-size:0.8rem;
+}
+.signup-body{
+    margin:20px 0px;
+}
+.signup-body p{
+    margin:10px 0;
+}
+.signup-body p label{
+    font-weight: bold;
+}
+.signup-body p input{
+    width:100%;
+    font-size:1rem;
+}
+button{
+    background-color: black;
+    color: white;
+    border:none;
+    cursor: pointer;
+    border-radius:16px;
+    width:100%;
+    padding: 10px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgb(48, 45, 45);
+}
+.signup-footer p{
+    text-align: center;
+    font-size: large;
+}
+.signup-footer p a{
+    color: black;
+    font-weight: bolder;
+}
